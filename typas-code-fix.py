@@ -10,6 +10,7 @@ for file in os.listdir(directory):
 
     font_path = os.path.join(directory, file)
     font = TTFont(font_path)
+    font["OS/2"].achVendID = "UKWN" # set to unknown vendor
     font["head"].unitsPerEm = 1950
     font.save(font_path, reorderTables=False)
 
