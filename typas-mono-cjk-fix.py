@@ -12,3 +12,4 @@ for file in os.listdir(directory):
     font = TTFont(font_path)
     font["OS/2"].achVendID = "UKWN" # set to unknown vendor
     font.save(font_path, reorderTables=False)
+    print(file, "has been processed")

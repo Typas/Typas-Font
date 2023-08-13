@@ -1,0 +1,29 @@
+*.tar.gz
+*.zip
+*~
+\#*#
+.DS_Store
+.idea
+*.log
+tmp/
+
+# universal tags
+.tags/
+.tags
+
+# tex tmp files
+*.aux
+*.log
+_minted-*/
+*.synctex.gz
+*.nav
+*.toc
+*.vrb
+*.snm
+*.out
+.auctex-auto/
+
+*.py[cod]
+*.egg
+build
+htmlcov
